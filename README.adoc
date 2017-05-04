@@ -29,7 +29,8 @@ From a command line, at the root of this project
   * `conan install .. --build missing`
 4. Ask CMake to make a build system (build files will be in `build` folder. `.sln` file for Visual Studio)
   * Windows
-    ** `cmake .. -G "Visual Studio 14 2015 Win64"`
+    ** `cmake .. -G "Visual Studio 15 2017 Win64"`
+    ** *OR* `cmake .. -G "Visual Studio 14 2015 Win64"`
   * Linux
     ** `cmake .. -G "Unix Makefiles`
   * Any (auto select build system)
